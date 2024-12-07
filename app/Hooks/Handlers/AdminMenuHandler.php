@@ -79,7 +79,7 @@ class AdminMenuHandler
                 class="fluent_smtp_box">
                 <h3 style="margin: 0;"><?php __('For SMTP, you already have FluentSMTP Installed', 'fluent-smtp'); ?></h3>
                 <p><?php __('You seem to be looking for an SMTP plugin, but there\'s no need for another one — FluentSMTP is already installed on your site. FluentSMTP is a comprehensive, free, and open-source plugin with full features available without any upsell', 'fluent-smtp'); ?>
-                    (<a href="https://fluentsmtp.com/why-we-built-fluentsmtp-plugin/"><?php __('learn why it\'s free', 'fluent-smtp'); ?></a>)<?php __('. It\'s compatible with various SMTP services, including Amazon SES, SendGrid, MailGun, ElasticEmail, SendInBlue, Google, Microsoft, and others, providing you with a wide range of options for your email needs.', 'fluent-smtp'); ?>
+                    (<a href="https://fluentsmtp.com/why-we-built-fluentsmtp-plugin/"><?php __('learn why it\'s free', 'fluent-smtp'); ?></a>)<?php __('. It\'s compatible with various SMTP services, including Amazon SES, SendGrid, MailGun, ElasticEmail, Brevo, Google, Microsoft, and others, providing you with a wide range of options for your email needs.', 'fluent-smtp'); ?>
                 </p><a href="<?php echo esc_url(admin_url('options-general.php?page=fluent-mail#/')); ?>"
                        class="wp-core-ui button button-primary"><?php __('Go To FluentSMTP Settings', 'fluent-smtp'); ?></a>
                 <p style="font-size: 80%; margin: 15px 0 0;"><?php __('This notice is from FluentSMTP plugin to prevent plugin
@@ -494,7 +494,7 @@ class AdminMenuHandler
             'Are you sure, you want to delete all the logs?'                               => __('Are you sure, you want to delete all the logs?', 'fluent-smtp'),
             'Attachments'                                                                  => __('Attachments', 'fluent-smtp'),
             'Authenticate with Google & Get Access Token'                                  => __('Authenticate with Google & Get Access Token', 'fluent-smtp'),
-            'Authenticate with Office365 & Get Access Token'                               => __('Authenticate with Office365 & Get Access Token', 'fluent-smtp'),
+            'Authenticate with Office365 & Get Access Token'                               => __('Authenticate with Microsoft 365 & Get Access Token', 'fluent-smtp'),
             'Authentication'                                                               => __('Authentication', 'fluent-smtp'),
             'Authorized Redirect URI'                                                      => __('Authorized Redirect URI', 'fluent-smtp'),
             'Authorized Redirect URIs'                                                     => __('Authorized Redirect URIs', 'fluent-smtp'),
@@ -604,7 +604,7 @@ class AdminMenuHandler
             'Off'                                                                          => __('Off', 'fluent-smtp'),
             'On'                                                                           => __('On', 'fluent-smtp'),
             'Outlook / Office365 API Settings'                                             => __('Outlook / Office365 API Settings', 'fluent-smtp'),
-            'Pepipost API Settings'                                                        => __('Pepipost API Settings', 'fluent-smtp'),
+            'Pepipost API Settings'                                                        => __('Netcore Email API Settings', 'fluent-smtp'),
             'Pin copied to clipboard'                                                      => __('Pin copied to clipboard', 'fluent-smtp'),
             'Please '                                                                      => __('Please ', 'fluent-smtp'),
             'Please Provide an email'                                                      => __('Please Provide an email', 'fluent-smtp'),
@@ -651,7 +651,7 @@ class AdminMenuHandler
             'Sender Email Address'                                                         => __('Sender Email Address', 'fluent-smtp'),
             'Sender Name'                                                                  => __('Sender Name', 'fluent-smtp'),
             'Sender Settings'                                                              => __('Sender Settings', 'fluent-smtp'),
-            'Sendinblue API Settings'                                                      => __('Sendinblue API Settings', 'fluent-smtp'),
+            'Sendinblue API Settings'                                                      => __('Brevo API Settings', 'fluent-smtp'),
             'Sending Stats'                                                                => __('Sending Stats', 'fluent-smtp'),
             'Sending by time of day'                                                       => __('Sending by time of day', 'fluent-smtp'),
             'Server Response'                                                              => __('Server Response', 'fluent-smtp'),
@@ -741,8 +741,8 @@ class AdminMenuHandler
             '__SUPPORT_INTRO'                                                              => sprintf(__('Please view the %1$s first. If you still can\'t find the answer %2$s  and we will be happy to answer your questions and assist you with any problems.', 'fluent-smtp'), '<a href="https://fluentsmtp.com/docs" target="_blank" rel="noopener">' . __('documentation', 'fluent-smtp') . '</a>', '<a href="https://github.com/WPManageNinja/fluent-smtp" target="_blank" rel="noopener">' . __('open a github issue', 'fluent-smtp') . '</a>'),
             '__DEFAULT_CONNECTION_CONFLICT'                                                => __('Default and Fallback connection can not be same. Please select different connections.', 'fluent-smtp'),
             '__MAILGUN_URL_TIP'                                                            => __('Define which endpoint you want to use for sending messages.', 'fluent-smtp'),
-            '__PEPIPOST_HELP'                                                              => __('Follow this link to get an API Key from Pepipost(Click Show button on Settings Page):', 'fluent-smtp'),
-            '__POSTMARK_HELP'                                                              => __('Follow this link to get an API Key from Postmark(Your API key is in the API Tokens tab of your):', 'fluent-smtp'),
+            '__PEPIPOST_HELP'                                                              => __('Follow this link to get an API Key from Netcore Email (Click Show button on Settings Page):', 'fluent-smtp'),
+            '__POSTMARK_HELP'                                                              => __('Follow this link to get an API Key from Postmark (Your API key is in the API Tokens tab of your):', 'fluent-smtp'),
             '__TELE_INTRO'                                                                 => sprintf(__('Get real - time notification on your %1$s on any email sending failure. Configure notification with FluentSMTP\'s official %2$s to start getting real time notifications. ', 'fluent-smtp'), '<a target="_blank" rel="noopener" href="https://telegram.org/">Telegram Messenger</a>', '<a target="_blank" rel="noopener" href="https://t.me/fluentsmtp_bot">telegram bot</a>'),
             '__SLACK_TERMS'                                                                => sprintf(__('I agree to the %1s of this slack integration.', 'fluent-smtp'), '<a target="_blank" rel="noopener" href="https://fluentsmtp.com/terms-and-conditions/">' . __('terms and conditions', 'fluent-smtp') . '</a>'),
             '__GIT_CONTRIBUTE'                                                             => sprintf(__('If you are a developer and would like to contribute to the project, Please %s', 'fluent-smtp'), '<a target="_blank" rel="nofollow" href="https://github.com/WPManageNinja/fluent-smtp/">' . __('contribute on GitHub', 'fluent-smtp') . '</a>'),
