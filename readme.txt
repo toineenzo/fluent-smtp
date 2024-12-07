@@ -8,7 +8,7 @@ Requires PHP: 7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Ultimate Forever Free Mail SMTP Plugin for WordPress. Connect with any SMTP, SendGrid, Mailgun, Amazon SES, Brevo, Postmark, Sparkpost, Google...
+The Ultimate Forever Free Mail SMTP Plugin for WordPress. Connect with any SMTP, SendGrid, Mailgun, Amazon SES, Brevo, Postmark, Bird Email, Google...
 
 == Description ==
 
@@ -34,11 +34,11 @@ Our parent company <a title="WP Manage Ninja" href="https://wpmanageninja.com">W
 * Outlook OAuth
 * SendGrid
 * Mailgun
-* Brevo (Sendinblue)
-* Pepipost
+* Brevo (formerly Sendinblue)
+* Netcore Email (formerly Pepipost)
 * Postmark
-* Zoho ZeptoMail (TransMail)
-* SparkPost
+* Zoho ZeptoMail (formerly TransMail)
+* Bird Email (formerly SparkPost)
 * Elastic Mail
 * Zoho via SMTP
 * Any SMTP email provider
@@ -90,36 +90,36 @@ With Fluent SMTP connection, You can set up your Mailgun email service connectio
 
 Read about <a href="https://fluentsmtp.com/docs/configure-mailgun-in-fluent-smtp-to-send-emails/">Mailgun connection documentation here</a>
 
-== 🎉 Sendinblue API Connection ==
-Sendinblue is a platform for growing businesses and it has a great transactional email service. They serve more than 80,000 companies around the world and send millions of emails every day.
+== 🎉 Brevo API Connection ==
+Brevo (formerly Sendinblue) is a platform for growing businesses and it has a great transactional email service. They serve more than 80,000 companies around the world and send millions of emails every day.
 
-If you use Sendinblue then with the help of Fluent SMTP, You can easily connect with its API and send Your WordPress emails via an API connection.
+If you use Brevo then with the help of Fluent SMTP, You can easily connect with its API and send Your WordPress emails via an API connection.
 
-Read about <a href="https://fluentsmtp.com/docs/setting-up-sendinblue-mailer-in-fluent-smtp/">Sendinblue connection documentation here</a>
+Read about <a href="https://fluentsmtp.com/docs/setting-up-sendinblue-mailer-in-fluent-smtp/">Brevo connection documentation here</a>
 
-== 🎉 Pepipost Email API Connection ==
-Pepipost is a complete sending partner with a user-friendly dashboard and many extensive functions such as statistics and real-time information.
+== 🎉 Netcore Email API Connection ==
+Netcore Email (formerly Pepipost) is a complete sending partner with a user-friendly dashboard and many extensive functions such as statistics and real-time information.
 
-With Fluent SMTP connection, You can set up your Pepipost email service connection in less than a minute. With a direct API connection so it's faster than their SMTP connection.
+With Fluent SMTP connection, You can set up your Netcore Email service connection in less than a minute. With a direct API connection so it's faster than their SMTP connection.
 
-Read about <a href="https://fluentsmtp.com/docs/set-up-the-pepipost-mailer-in-fluent-smtp/">Pepipost API connection documentation here</a>
+Read about <a href="https://fluentsmtp.com/docs/set-up-the-pepipost-mailer-in-fluent-smtp/">Netcore Email API connection documentation here</a>
 
-== 🎉 SparkPost Email API Connection ==
-SparkPost is a great email sending service with lots of analytics features.
-With Fluent SMTP, You can set up your SparkPost email service connection with your WordPress in less than a minute.
+== 🎉 Bird Email API Connection ==
+Bird Email (formerly SparkPost) is a great email sending service with lots of analytics features.
+With Fluent SMTP, You can set up your Bird Email email service connection with your WordPress in less than a minute.
 
-Read about <a href="https://fluentsmtp.com/docs/configure-sparkpost-in-fluent-smtp-to-send-emails/">SparkPost connection documentation here</a>
+Read about <a href="https://fluentsmtp.com/docs/configure-sparkpost-in-fluent-smtp-to-send-emails/">Bird Email connection documentation here</a>
 
 == 🎉 Elastic Email API Connection ==
 Elastic Email is a great solution for sending transactional and marketing emails with a user-friendly dashboard and many extensive functions such as statistics and real-time information. Fluent SMTP plugin is fully compatible with their official API and you can use it to send your WordPress emails via Elastic Email
 
-== 🎉 Outlook or Office365 API Connection ==
-Fluent SMTP provides you options to connect with your Outlook or Office 365 emails and send emails over their API. It's fast and secure. Using oAuth2 authentication system for the connection, You can easily setup the connection and send your emails with Office 365 / Outlook emails.
+== 🎉 Outlook or Microsoft 365 API Connection ==
+Fluent SMTP provides you options to connect with your Outlook or Microsoft 365 emails and send emails over their API. It's fast and secure. Using oAuth2 authentication system for the connection, You can easily setup the connection and send your emails with Microsoft 365 / Outlook emails.
 
-Read the documentation for <a href="https://fluentsmtp.com/docs/setup-outlook-with-fluentsmtp/">connecting Office 365 Email with WordPress</a>
+Read the documentation for <a href="https://fluentsmtp.com/docs/setup-outlook-with-fluentsmtp/">connecting Microsoft 365 Email with WordPress</a>
 
 == 🎉 Other SMTP ==
-Fluent SMTP plugin works with all major email services that offer SMTP connections such as Gmail, Yahoo, Microsoft Live, Zoho Mail, YandexMail, and any other email sending services.
+Fluent SMTP plugin works with all major email services that offer SMTP connections such as Gmail, Yahoo, Microsoft Outlook, Zoho Mail, YandexMail, and any other email sending services.
 
 You can set the following options:
 
@@ -254,17 +254,17 @@ Yes, when you create your connection you can choose how you want to store your c
 
  Yes, FluentSMTP let you connect your Mailgun via API Key. It's faster and reliable than Mailgun SMTP. But if you prefer Mailgun SMTP connection, You can also connect with that too.
 
- = Can I send WordPress mails with Sendinblue? =
+ = Can I send WordPress mails with Brevo? =
 
- Yes, FluentSMTP let you connect your Sendinblue email sending service via API Key. It's faster and reliable. But if you prefer Sendinblue SMTP connection, You can also connect with that too.
+ Yes, FluentSMTP let you connect your Brevo email sending service via API Key. It's faster and reliable. But if you prefer Brevo SMTP connection, You can also connect with that too.
 
- = Can I send WordPress mails with SparkPost? =
+ = Can I send WordPress mails with Bird Email? =
 
- Yes, FluentSMTP let you connect your SparkPost email sending service via API Key.
+ Yes, FluentSMTP let you connect your Bird Email email sending service via API Key.
 
-= Can I send WordPress mails with Pepipost? =
+= Can I send WordPress mails with Netcore Email? =
 
-Yes, FluentSMTP let you connect your Pepipost email sending service via secure API Key.
+Yes, FluentSMTP let you connect your Netcore Email sending service via secure API Key.
 
 = I am a developer, Where I can contribute to this project? =
 
